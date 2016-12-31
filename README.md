@@ -20,13 +20,13 @@ This is a basic display of the weather, it's very basic but it does work. It ref
 
 0) (Optional) Uninstall Sonic-Pi as it can cause updaing to take a very long time (This is raspbian, not for the site)
 
-1) Set the SetupScript.sh to executable and execute it as root r with elevated permissions, it will install and setup the software required (Update all packages, install mono with xsp and then import SSL certificates)
+1) Set the SetupScript.sh to executable and execute it as root or with elevated permissions, it will install and setup the software required (Update all packages, install mono with xsp and then import SSL certificates)
 
 2) Copy the WeatherApp folder to the home folder (~/)
 
 3) Run startup.sh and the page should load with weather data
 
-4) You should then edit [INSERT FILE HERE] and /etc/profile (Add the path to the startup.sh for example ~/RPi_Weather_Display/startup.sh)
+4) You should then edit [INSERT FILE HERE] and /etc/profile (Add the path to the startup.sh for example ~/startup.sh)
 
 5) On boot and after 5 seconds, everything should load
 
